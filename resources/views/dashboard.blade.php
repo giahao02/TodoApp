@@ -8,9 +8,9 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>Todo List with Tailwind and Alpinejs</title>
-    {{-- @vite('resources/js/app.js') --}}
     @vite(['resources/css/app.css', 'resources/js/app.js'])
-    {{-- <script defer type="module" src="{{ asset('js/app.js') }}"></script>
+    {{-- @vite('resources/js/app.js')
+    <script defer type="module" src="{{ asset('js/app.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/persist@3.14.8/dist/cdn.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.8/dist/cdn.min.js"></script> --}}
