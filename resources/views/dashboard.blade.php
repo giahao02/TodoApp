@@ -8,8 +8,6 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Todo List with Tailwind and Alpinejs</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
-
-
     {{-- @vite('resources/js/app.js')
     <script defer type="module" src="{{ asset('js/app.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
